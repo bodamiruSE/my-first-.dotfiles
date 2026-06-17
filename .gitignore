@@ -1,0 +1,8 @@
+fish/fish_variables
+
+nnn/sessions/
+nnn/mounts/
+
+nvim/.netrwhist
+
+.DS_Store
