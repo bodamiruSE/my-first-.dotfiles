@@ -1,21 +1,52 @@
-MIT License
+Create a modern, single-page portfolio website with the following specifications:
 
-Copyright (c) 2026 bodamiruSE
+**General:**
+- Dark theme with a neon/cyberpunk color palette (purple, cyan, pink)
+- Full responsive design (mobile + desktop)
+- Smooth scrolling with snap sections
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Animations (heavy):**
+1. **Hero Section:**
+   - Floating 3D geometric shapes (spheres, cubes, torus) rotating in the background
+   - Typing effect on the main headline ("Hi, I'm [Name]")
+   - Glowing gradient text with a slow pulse animation
+   - Particle network animation (connected dots) behind the hero
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. **About Section:**
+   - Cards that flip on hover (3D perspective transform)
+   - Progress bars that animate from 0% to their value when scrolled into view
+   - Floating avatar/image with a soft bounce animation
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. **Skills Section:**
+   - Animated skill icons (spin, scale, or float on hover)
+   - Grid items that stagger in (each appears with a delay, sliding up)
+
+4. **Projects Section:**
+   - Image carousel with smooth slide transitions and autoplay
+   - Cards that tilt following the mouse cursor (3D parallax)
+   - Glow effect on hover with color transition
+
+5. **Contact Section:**
+   - Animated input fields (label floats up on focus)
+   - Send button with a ripple/pulse effect
+   - Social media icons with rotating hover animation
+
+**Technical Requirements:**
+- Use HTML, CSS, and JavaScript (or React/Next.js if preferred)
+- Use CSS animations + @keyframes
+- Use Intersection Observer API for scroll-triggered animations
+- Use Canvas or Three.js for 3D background elements
+- Smooth page transitions between sections (fade + slide)
+- Loading animation (spinner or progress bar) on initial load
+
+**Performance:**
+- Use will-change: transform for GPU acceleration
+- Lazy load images
+- Debounce scroll events
+- Use requestAnimationFrame for smooth 60fps animations
+
+**Bonus:**
+- Custom cursor that changes size/color on hover over interactive elements
+- Mouse-trail effect with small glowing dots
+- Background animated gradient that shifts slowly
+- Sound effects on click (optional, muted by default)
