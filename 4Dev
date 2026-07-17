@@ -1,0 +1,49 @@
+4DEv
+
+# ===== MIXED LESSON: LESSONS 1 TO 3 =====
+
+# PART 1: PRINT + VARIABLES + f-strings
+name = "Alice"
+age = 20
+height = 5.6
+
+print("Hello, Python!")
+print(f"My name is {name}")
+print(f"I am {age} years old")
+print(f"My height is {height} feet")
+
+# PART 2: BASIC MATH
+price = 10
+quantity = 3
+total = price * quantity
+
+print()
+print("--- Math Example ---")
+print(f"Price: ${price}")
+print(f"Quantity: {quantity}")
+print(f"Total: ${total}")
+
+# PART 3: IF STATEMENTS
+print()
+print("--- Decision Example ---")
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")
+
+# PART 4: LOOPS
+print()
+print("--- Loop Example ---")
+fruits = ["apple", "banana", "orange"]
+for fruit in fruits:
+    print(f"I like {fruit}")
+
+# PART 5: WHILE LOOP
+print()
+count = 0
+while count < 3:
+    print(f"Count: {count}")
+    count += 1
+
+print()
+print("Great job! You mixed lessons 1, 2, and 3 together!")
